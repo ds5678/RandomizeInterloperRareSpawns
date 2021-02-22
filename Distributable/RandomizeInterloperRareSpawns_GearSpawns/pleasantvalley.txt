@@ -1,0 +1,36 @@
+scene=PrepperCacheEmpty
+item=GEAR_KeroseneLampB p=-1.5524,0.6561,1.6380 r=0.0000,357.5567,0.0000 c=50
+item=GEAR_Hammer p=0.7177,0.0231,1.3523 r=0.0000,26.3918,0.0000 c=50
+item=GEAR_Hacksaw p=0.6078,1.0019,1.7498 r=0.0000,278.7167,0.0000 c=50
+item=GEAR_BedRoll p=-0.7711,0.0061,1.5086 r=0.1370,359.1082,0.0883 c=50
+scene=RuralRegion
+item=GEAR_Hammer p=362.4706,175.3786,2264.2910 r=352.6727,96.0411,1.6353 c=50
+item=GEAR_Firestriker p=362.2219,175.3148,2264.4010 r=355.3186,57.0248,5.8745 c=50
+item=GEAR_MagnifyingLens p=354.1772,140.5246,2624.0960 r=0.0000,71.8758,0.0000 c=50
+scene=CaveB
+item=GEAR_BedRoll p=-16.5136,-7.5266,37.8387 r=355.3927,185.7249,340.6379 c=50
+item=GEAR_KeroseneLampB p=-18.2273,-7.6719,37.9573 r=359.8038,126.3234,3.3933 c=50
+scene=CommunityHallA
+item=GEAR_BedRoll p=-9.7217,0.8526,-5.1035 r=0.0000,358.9056,0.0000 c=50
+item=GEAR_Firestriker p=-2.2374,1.3202,-6.6433 r=0.0000,178.4831,0.0000 c=50
+item=GEAR_KeroseneLampB p=-6.8289,1.1144,6.1502 r=0.0000,272.6924,0.0000 c=50
+scene=BarnHouseA
+item=GEAR_Hacksaw p=-0.7138,5.8211,6.1958 r=0.0000,59.5695,0.0000 c=50
+item=GEAR_Hammer p=-6.9667,6.1315,4.7554 r=0.0000,273.9755,0.0000 c=50
+item=GEAR_BedRoll p=0.4359,0.8178,0.9318 r=0.0000,52.1065,0.0000 c=50
+scene=RuralRegion
+item=GEAR_MagnifyingLens p=1920.0790,199.8323,640.8438 r=9.9767,228.4943,11.4661 c=50
+scene=RadioControlHut
+item=GEAR_Hacksaw p=0.7172,0.0000,3.8550 r=0.0000,347.9883,0.0000 c=50
+scene=FarmHouseA
+item=GEAR_MagnifyingLens p=8.9346,4.3846,-3.4513 r=0.0000,136.0291,0.0000 c=50
+scene=FarmHouseABasement
+item=GEAR_Hammer p=-4.6117,2.6468,-0.0441 r=0.0000,133.9403,0.0000 c=50
+item=GEAR_Hacksaw p=-6.3383,1.8649,0.2231 r=0.0000,358.7699,0.0000 c=50
+item=GEAR_BedRoll p=-7.7207,0.8714,-0.2329 r=0.0000,0.5448,0.0000 c=50
+scene=RadioControlHut
+item=GEAR_Hammer p=3.2160,0.3322,-0.8020 r=0.0000,13.9451,0.0000 c=50
+scene=RuralRegion
+item=GEAR_Hammer p=476.5078,59.8014,593.3672 r=358.3514,66.1817,350.3904 c=50
+item=GEAR_Hacksaw p=477.1191,60.0965,588.1478 r=345.4160,92.8730,9.5114 c=50
+
