@@ -1,10 +1,4 @@
 ﻿using Harmony;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
 
 namespace RandomizeInterloperRareSpawns
 {
@@ -22,7 +16,7 @@ namespace RandomizeInterloperRareSpawns
             }
         }
 
-        [HarmonyPatch(typeof(GameManager),"Update")]
+        [HarmonyPatch(typeof(GameManager), "Update")]
         internal class SendType
         {
             private static void Postfix()

@@ -1,3 +1,4 @@
+tag=RandomizeInterloperRareSpawns_Random
 scene=PrepperCacheEmpty
 item=GEAR_KeroseneLampB p=-1.5524,0.6561,1.6380 r=0.0000,357.5567,0.0000 c=50
 item=GEAR_Hammer p=0.7177,0.0231,1.3523 r=0.0000,26.3918,0.0000 c=50

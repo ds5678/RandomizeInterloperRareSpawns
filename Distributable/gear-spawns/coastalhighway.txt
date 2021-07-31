@@ -1,5 +1,5 @@
+tag=RandomizeInterloperRareSpawns_Random
 scene=MineTransitionZone
-item=GEAR_KeroseneLampB p=-137.3715,-55.8155,229.8974 r=0.0000,332.1358,0.0000 c=100
 item=GEAR_Hammer p=-135.4399,-78.8167,315.4813 r=359.0486,108.0856,359.6620 c=50
 scene=CoastalRegion
 item=GEAR_Hacksaw p=354.1111,204.1821,1156.2790 r=0.0000,285.6964,0.0000 c=50

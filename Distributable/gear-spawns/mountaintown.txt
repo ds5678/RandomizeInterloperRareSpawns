@@ -1,3 +1,4 @@
+tag=RandomizeInterloperRareSpawns_Random
 scene=GreyMothersHouseA
 item=GEAR_Firestriker p=4.1086,0.6854,1.6421 r=0.0000,357.9385,0.0000 c=50
 item=GEAR_KeroseneLampB p=-1.0358,4.4589,-2.4162 r=0.0000,100.4986,0.0000 c=50

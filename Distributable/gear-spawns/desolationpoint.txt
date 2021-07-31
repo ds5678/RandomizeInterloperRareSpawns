@@ -1,3 +1,4 @@
+tag=RandomizeInterloperRareSpawns_Random
 scene=WhalingShipA
 item=GEAR_KeroseneLampB p=-1.8424,2.8180,-10.5114 r=13.4887,284.8286,3.3979 c=50
 item=GEAR_Firestriker p=-0.3565,2.2268,-19.7429 r=346.6400,107.3548,355.7769 c=50

@@ -1,5 +1,5 @@
+tag=RandomizeInterloperRareSpawns_Random
 scene=MaintenanceShedB
-item=GEAR_Hacksaw p=8.7863,0.3085,-3.6984 r=0.0000,80.5979,0.0000 c=100
 item=GEAR_Hammer p=5.9785,0.5549,-13.5870 r=359.7804,90.0907,359.5619 c=50
 item=GEAR_BedRoll p=-8.3451,1.6279,-25.6640 r=0.0000,175.6206,0.0000 c=50
 item=GEAR_Firestriker p=5.6569,1.0699,-12.4055 r=0.0000,171.7733,0.0000 c=50

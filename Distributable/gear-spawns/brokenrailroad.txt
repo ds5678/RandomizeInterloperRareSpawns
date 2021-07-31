@@ -1,5 +1,5 @@
+tag=RandomizeInterloperRareSpawns_Random
 scene=TracksRegion
-item=GEAR_Firestriker p=785.0544,92.0678,361.6613 r=346.4071,119.2714,355.5043 c=100
 item=GEAR_Hacksaw p=785.4008,92.1175,361.4955 r=353.6230,118.2425,359.8125 c=50
 item=GEAR_BedRoll p=254.5760,191.9015,573.8031 r=0.0000,95.8647,0.0000 c=50
 item=GEAR_MagnifyingLens p=252.6529,191.9009,573.6549 r=0.0000,228.5313,0.0000 c=50

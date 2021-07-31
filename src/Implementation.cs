@@ -1,9 +1,6 @@
-﻿using System;
+﻿using MelonLoader;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MelonLoader;
 using UnityEngine;
 
 namespace RandomizeInterloperRareSpawns
@@ -11,10 +8,12 @@ namespace RandomizeInterloperRareSpawns
     public class Implementation : MelonMod
     {
         public static string[] rareLootNames = { "GEAR_Hacksaw", "GEAR_Hammer", "GEAR_KeroseneLampB", "GEAR_MagnifyingLens", "GEAR_Firestriker", "GEAR_BedRoll" };
-        
+
         public override void OnApplicationStart()
         {
             Debug.Log($"[{Info.Name}] Version {Info.Version} loaded!");
+            Settings.OnLoad();
+            ProbabilityFunctions.AddToModComponent();
         }
 
         internal static void Log(string message)
@@ -35,7 +34,7 @@ namespace RandomizeInterloperRareSpawns
 
             foreach (GameObject rootObj in rObjs)
             {
-                if(rootObj.GetComponent<MissionObjectIdentifier>() != null && IsRareLoot(rootObj))
+                if (rootObj.GetComponent<MissionObjectIdentifier>() != null && IsRareLoot(rootObj))
                 {
                     //Log("Root Object '{0}' Destroyed",rootObj.name);
                     UnityEngine.Object.Destroy(rootObj);

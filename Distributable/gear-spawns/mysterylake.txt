@@ -1,3 +1,4 @@
+tag=RandomizeInterloperRareSpawns_Random
 scene=CampOffice
 item=GEAR_Hammer p=-0.2904,0.0404,-5.6500 r=0.0000,103.1765,0.0000 c=50
 item=GEAR_MagnifyingLens p=-0.2463,3.7787,4.0936 r=0.0000,14.7195,0.0000 c=50

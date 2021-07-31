@@ -1,0 +1,19 @@
+tag=RandomizeInterloperRareSpawns_Guaranteed
+
+scene=MineTransitionZone
+item=GEAR_KeroseneLampB p=-137.3715,-55.8155,229.8974 r=0.0000,332.1358,0.0000 c=0
+
+scene=RiverValleyRegion
+item=GEAR_Hammer p=1489.9060,202.7984,1748.0330 r=355.7115,127.7909,359.7671 c=0
+
+scene=TracksRegion
+item=GEAR_Firestriker p=785.0544,92.0678,361.6613 r=346.4071,119.2714,355.5043 c=0
+
+scene=MaintenanceShedB
+item=GEAR_Hacksaw p=8.7863,0.3085,-3.6984 r=0.0000,80.5979,0.0000 c=0
+
+scene=AshWoodCabinA
+item=GEAR_BedRoll p=1.1035,0.0040,-0.3346 r=0.0000,88.3496,0.0000 c=0
+
+scene=CrashMountainRegion
+item=GEAR_MagnifyingLens p=934.8165,469.6268,1158.9180 r=5.7204,225.2774,357.3967 c=0
