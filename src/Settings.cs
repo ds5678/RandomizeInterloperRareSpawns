@@ -63,10 +63,9 @@ namespace RandomizeInterloperRareSpawns
     }
     internal static class Settings
     {
-        internal static RareSpawnSettings options;
+        internal static RareSpawnSettings options = new RareSpawnSettings();
         internal static void OnLoad()
         {
-            options = new RareSpawnSettings();
             options.AddToModSettings("Randomize Interloper Rare Spawns", MenuType.MainMenuOnly);
         }
     }

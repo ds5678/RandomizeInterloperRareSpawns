@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace RandomizeInterloperRareSpawns
 {
-    public class Implementation : MelonMod
+    internal class Implementation : MelonMod
     {
         public static string[] rareLootNames = { "GEAR_Hacksaw", "GEAR_Hammer", "GEAR_KeroseneLampB", "GEAR_MagnifyingLens", "GEAR_Firestriker", "GEAR_BedRoll" };
 
@@ -18,7 +18,7 @@ namespace RandomizeInterloperRareSpawns
 
         internal static void Log(string message)
         {
-            MelonLogger.Log(message);
+            MelonLogger.Msg(message);
         }
 
         internal static void Log(string message, params object[] parameters)

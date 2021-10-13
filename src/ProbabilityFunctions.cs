@@ -1,9 +1,9 @@
-﻿using ModComponentMapper;
+﻿using GearSpawner;
 using System;
 
 namespace RandomizeInterloperRareSpawns
 {
-    public static class ProbabilityFunctions
+    internal static class ProbabilityFunctions
     {
         internal static void AddToModComponent()
         {
