@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32714.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomizeInterloperRareSpawns", "RandomizeInterloperRareSpawns.csproj", "{8D04DF52-04B1-4A7F-B8E4-FD4863E6D783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomizeInterloperRareSpawns", "VisualStudio\RandomizeInterloperRareSpawns.csproj", "{4CBBABCC-4972-462E-BB91-ACB7A0445B92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{029B5791-5712-4EF5-8D4B-6C317C036F1E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8D04DF52-04B1-4A7F-B8E4-FD4863E6D783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D04DF52-04B1-4A7F-B8E4-FD4863E6D783}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D04DF52-04B1-4A7F-B8E4-FD4863E6D783}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D04DF52-04B1-4A7F-B8E4-FD4863E6D783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBBABCC-4972-462E-BB91-ACB7A0445B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBBABCC-4972-462E-BB91-ACB7A0445B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBBABCC-4972-462E-BB91-ACB7A0445B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBBABCC-4972-462E-BB91-ACB7A0445B92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

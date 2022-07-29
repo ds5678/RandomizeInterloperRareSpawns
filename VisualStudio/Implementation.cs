@@ -1,4 +1,6 @@
-﻿using MelonLoader;
+﻿extern alias Hinterland;
+using Hinterland;
+using MelonLoader;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -19,12 +21,6 @@ namespace RandomizeInterloperRareSpawns
         internal static void Log(string message)
         {
             MelonLogger.Msg(message);
-        }
-
-        internal static void Log(string message, params object[] parameters)
-        {
-            string preformattedMessage = string.Format(message, parameters);
-            Log(preformattedMessage);
         }
 
         internal static void PatchSceneObjects()
@@ -64,7 +60,7 @@ namespace RandomizeInterloperRareSpawns
 
         public static bool IsRareLoot(GameObject gameObject)
         {
-            return rareLootNames.Contains<string>(gameObject.name);
+            return rareLootNames.Contains(gameObject.name);
         }
     }
 }
