@@ -1,3 +1,10 @@
+# Bedrolls: 5
+# Hacksaws: 5
+# Hammers: 6
+# Lanterns: 3
+# Mag Lens: 3
+# Firestrikers: 2
+
 tag=RandomizeInterloperRareSpawns_Random
 scene=PrepperCacheEmpty
 item=GEAR_KeroseneLampB p=-1.5524,0.6561,1.6380 r=0.0000,357.5567,0.0000 c=50

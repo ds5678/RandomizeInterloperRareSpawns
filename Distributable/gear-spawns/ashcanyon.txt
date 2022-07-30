@@ -1,3 +1,10 @@
+# Bedrolls: 0
+# Hacksaws: 5
+# Hammers: 6
+# Lanterns: 3
+# Mag Lens: 3
+# Firestrikers: 2
+
 tag=RandomizeInterloperRareSpawns_Random
 scene=AshCanyonRegion
 item=GEAR_KeroseneLampB p=653.2798,51.5200,-421.0265 r=0.0000,205.3303,0.0000 c=50
@@ -19,6 +26,7 @@ scene=AshCabinF
 item=GEAR_Hammer p=-2.0259,0.0189,-1.4194 r=0.0000,170.1494,0.0000 c=50
 item=GEAR_Hacksaw p=-1.5507,0.9299,-1.5522 r=0.0000,317.1225,0.0000 c=50
 item=GEAR_KeroseneLampB p=2.3047,1.0086,0.2407 r=0.0000,41.6207,0.0000 c=50
+item=GEAR_MagnifyingLens p=2.2144,0.8156,2.1771 r=358.9005,334.9212,358.2770 c=50
 scene=AshWoodCabinA
 item=GEAR_Hammer p=0.9769,0.0208,-3.5596 r=0.0000,125.1817,0.0000 c=50
 item=GEAR_Hacksaw p=-0.6087,0.0240,1.2823 r=0.0000,38.3463,0.0000 c=50

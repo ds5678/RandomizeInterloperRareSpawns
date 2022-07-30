@@ -1,3 +1,10 @@
+# Bedrolls: 1
+# Hacksaws: 1
+# Hammers: 1
+# Lanterns: 1
+# Mag Lens: 1
+# Firestrikers: 1
+
 tag=RandomizeInterloperRareSpawns_Guaranteed
 
 scene=MineTransitionZone

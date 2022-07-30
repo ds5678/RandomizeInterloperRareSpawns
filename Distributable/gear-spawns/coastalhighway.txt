@@ -1,3 +1,10 @@
+# Bedrolls: 5
+# Hacksaws: 5
+# Hammers: 6
+# Lanterns: 0
+# Mag Lens: 3
+# Firestrikers: 2
+
 tag=RandomizeInterloperRareSpawns_Random
 scene=MineTransitionZone
 item=GEAR_Hammer p=-135.4399,-78.8167,315.4813 r=359.0486,108.0856,359.6620 c=50
@@ -7,7 +14,6 @@ item=GEAR_Firestriker p=359.3088,203.2252,1156.9500 r=0.0000,67.8252,0.0000 c=50
 item=GEAR_Hammer p=-750.6657,28.8778,656.8364 r=0.0000,307.3118,0.0000 c=50
 scene=CoastalHouseD
 item=GEAR_BedRoll p=5.3334,0.0021,2.6350 r=0.0000,359.6702,0.0000 c=50
-item=GEAR_MagnifyingLens p=3.4016,1.6091,3.1568 r=0.0000,0.6577,0.0000 c=50
 scene=QuonsetGasStation
 item=GEAR_Hammer p=4.3411,1.0148,-0.7992 r=0.0000,32.4970,0.0000 c=50
 item=GEAR_Hacksaw p=-0.0705,1.2826,-2.6668 r=0.0000,176.0004,0.0000 c=50
@@ -26,6 +32,8 @@ item=GEAR_Firestriker p=-413.2422,23.2964,597.2053 r=0.0000,323.8868,0.0000 c=50
 item=GEAR_Hammer p=-187.7350,23.4221,548.6505 r=0.0000,199.2960,0.0000 c=50
 item=GEAR_Hammer p=81.8579,23.3210,311.8500 r=0.0000,209.6843,0.0000 c=50
 item=GEAR_Hammer p=390.7713,23.3509,492.6573 r=0.0000,141.8966,0.0000 c=50
-scene=HouseBasementC
-item=GEAR_Hacksaw p=1.8352,151.3349,-2.1024 r=0.0000,124.2865,0.0000 c=50
-item=GEAR_BedRoll p=4.7728,150.0021,-2.0008 r=0.0000,90.7080,0.0000 c=50
+scene=MineTransitionZone
+item=GEAR_Hacksaw p=-119.9053,-79.0026,289.0146 r=0.0000,320.3814,0.0000 c=50
+item=GEAR_BedRoll p=-135.6795,-80.4228,318.9905 r=0.9677,343.6055,1.5818 c=50
+scene=CoastalRegion
+item=GEAR_MagnifyingLens p=-247.4440,23.0476,238.8228 r=0.0000,269.8149,0.0000 c=50

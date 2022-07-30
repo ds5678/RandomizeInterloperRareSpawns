@@ -1,3 +1,10 @@
+# Bedrolls: 5
+# Hacksaws: 5
+# Hammers: 5
+# Lanterns: 3
+# Mag Lens: 3
+# Firestrikers: 2
+
 tag=RandomizeInterloperRareSpawns_Random
 scene=MaintenanceShedB
 item=GEAR_Hammer p=5.9785,0.5549,-13.5870 r=359.7804,90.0907,359.5619 c=50

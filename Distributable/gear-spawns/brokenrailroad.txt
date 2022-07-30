@@ -1,3 +1,10 @@
+# Bedrolls: 5
+# Hacksaws: 5
+# Hammers: 0
+# Lanterns: 3
+# Mag Lens: 3
+# Firestrikers: 0
+
 tag=RandomizeInterloperRareSpawns_Random
 scene=TracksRegion
 item=GEAR_Hacksaw p=785.4008,92.1175,361.4955 r=353.6230,118.2425,359.8125 c=50

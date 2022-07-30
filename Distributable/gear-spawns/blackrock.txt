@@ -1,0 +1,37 @@
+# Bedrolls: 5
+# Hacksaws: 5
+# Hammers: 5
+# Lanterns: 3
+# Mag Lens: 3
+# Firestrikers: 2
+
+scene=CanyonRoadTransitionZone
+item=GEAR_Hacksaw p=389.8665,73.3322,432.2605 r=4.3243,296.6100,358.5917 c=50
+item=GEAR_Hammer p=231.2010,39.9233,420.8868 r=0.0000,108.8923,0.0000 c=50
+scene=BlackrockTransitionZone
+item=GEAR_BedRoll p=759.0023,244.5425,-165.6278 r=0.0000,60.5194,0.0000 c=50
+item=GEAR_MagnifyingLens p=757.9445,244.5419,-161.5407 r=0.0000,121.7974,0.0000 c=50
+scene=BlackrockRegion
+item=GEAR_BedRoll p=-39.4007,129.8620,-767.9791 r=1.4866,332.0579,359.6798 c=50
+item=GEAR_Hammer p=182.9259,179.0766,-243.5121 r=357.9236,39.2181,9.2936 c=50
+item=GEAR_Firestriker p=182.9358,179.5588,-242.9695 r=356.4691,148.8100,359.1342 c=50
+item=GEAR_BedRoll p=900.4955,231.5022,-101.3080 r=0.0000,92.6815,0.0000 c=50
+item=GEAR_Firestriker p=905.4984,233.2673,-96.8259 r=0.0000,9.4790,0.0000 c=50
+item=GEAR_Hacksaw p=901.0057,231.5001,-97.1397 r=0.0000,65.3702,0.0000 c=50
+item=GEAR_MagnifyingLens p=-585.1415,106.9324,-477.5787 r=0.0000,158.1257,0.0000 c=50
+scene=RadioControlHutC
+item=GEAR_KeroseneLampB p=-2.6368,2.2762,3.7024 r=0.0000,55.1725,0.0000 c=50
+item=GEAR_Hammer p=4.1627,0.0189,0.0802 r=0.0000,68.5400,0.0000 c=50
+item=GEAR_Hacksaw p=-0.2038,0.7206,0.2432 r=0.0000,89.9117,0.0000 c=50
+scene=BlackrockPowerplantA
+item=GEAR_Hacksaw p=2.1288,1.6180,-8.3707 r=0.0000,359.2188,0.0000 c=50
+scene=BlackrockSteamTunnelsASurvival
+item=GEAR_KeroseneLampB p=15.1239,0.4774,4.7256 r=3.9473,351.4001,0.0701 c=50
+item=GEAR_Hammer p=-17.6024,-0.0255,4.6330 r=354.3304,105.9311,357.3777 c=50
+scene=BlackrockPrisonSurvivalZone
+item=GEAR_BedRoll p=-187.6754,225.8032,4.4424 r=0.0000,64.2912,0.0000 c=50
+item=GEAR_MagnifyingLens p=-192.2413,225.8026,2.7711 r=0.0000,272.7772,0.0000 c=50
+item=GEAR_Hacksaw p=-78.1284,225.8219,41.3848 r=0.0000,131.1952,0.0000 c=50
+item=GEAR_KeroseneLampB p=-84.5890,226.2938,37.1748 r=0.0000,86.4461,0.0000 c=50
+item=GEAR_BedRoll p=-114.8088,226.4181,54.5861 r=0.0000,32.5692,0.0000 c=50
+item=GEAR_Hammer p=-230.5849,234.1426,162.1051 r=0.0000,245.5143,0.0000 c=50

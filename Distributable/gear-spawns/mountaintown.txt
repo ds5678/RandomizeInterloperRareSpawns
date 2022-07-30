@@ -1,3 +1,10 @@
+# Bedrolls: 5
+# Hacksaws: 5
+# Hammers: 6
+# Lanterns: 3
+# Mag Lens: 3
+# Firestrikers: 2
+
 tag=RandomizeInterloperRareSpawns_Random
 scene=GreyMothersHouseA
 item=GEAR_Firestriker p=4.1086,0.6854,1.6421 r=0.0000,357.9385,0.0000 c=50

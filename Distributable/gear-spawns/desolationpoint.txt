@@ -1,3 +1,10 @@
+# Bedrolls: 5
+# Hacksaws: 5
+# Hammers: 0
+# Lanterns: 3
+# Mag Lens: 3
+# Firestrikers: 2
+
 tag=RandomizeInterloperRareSpawns_Random
 scene=WhalingShipA
 item=GEAR_KeroseneLampB p=-1.8424,2.8180,-10.5114 r=13.4887,284.8286,3.3979 c=50

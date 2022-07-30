@@ -4,6 +4,13 @@ namespace RandomizeInterloperRareSpawns;
 
 internal static class ProbabilityFunctions
 {
+	private const int TotalBedrolls = 55;
+	private const int TotalHacksaws = 55;
+	private const int TotalHammers = 45;
+	private const int TotalLanterns = 33;
+	private const int TotalMagLens = 33;
+	private const int TotalFirestrikers = 22;
+
 	internal static void AddToModComponent()
 	{
 		SpawnTagManager.AddFunction("RandomizeInterloperRareSpawns_Guaranteed", GuaranteedSpawns);
@@ -42,12 +49,12 @@ internal static class ProbabilityFunctions
 	{
 		return itemName.ToLowerInvariant() switch
 		{
-			"gear_bedroll" => 100f * RareSpawnSettings.Instance.bedrollSpawnExpectation / 50f,
-			"gear_firestriker" => 100f * RareSpawnSettings.Instance.firestrikerSpawnExpectation / 20f,
-			"gear_hacksaw" => 100f * RareSpawnSettings.Instance.hacksawSpawnExpectation / 50f,
-			"gear_hammer" => 100f * RareSpawnSettings.Instance.hammerSpawnExpectation / 40f,
-			"gear_kerosenelampb" => 100f * RareSpawnSettings.Instance.lanternSpawnExpectation / 30f,
-			"gear_magnifyinglens" => 100f * RareSpawnSettings.Instance.maglensSpawnExpectation / 20f,
+			"gear_bedroll" => 100f / TotalBedrolls * RareSpawnSettings.Instance.bedrollSpawnExpectation,
+			"gear_firestriker" => 100f / TotalFirestrikers * RareSpawnSettings.Instance.firestrikerSpawnExpectation,
+			"gear_hacksaw" => 100f / TotalHacksaws * RareSpawnSettings.Instance.hacksawSpawnExpectation,
+			"gear_hammer" => 100f / TotalHammers * RareSpawnSettings.Instance.hammerSpawnExpectation,
+			"gear_kerosenelampb" => 100f / TotalLanterns * RareSpawnSettings.Instance.lanternSpawnExpectation,
+			"gear_magnifyinglens" => 100f / TotalMagLens * RareSpawnSettings.Instance.maglensSpawnExpectation,
 			_ => 0f,
 		};
 	}

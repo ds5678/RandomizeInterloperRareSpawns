@@ -1,3 +1,10 @@
+# Bedrolls: 5
+# Hacksaws: 5
+# Hammers: 6
+# Lanterns: 3
+# Mag Lens: 3
+# Firestrikers: 2
+
 tag=RandomizeInterloperRareSpawns_Random
 scene=CampOffice
 item=GEAR_Hammer p=-0.2904,0.0404,-5.6500 r=0.0000,103.1765,0.0000 c=50
