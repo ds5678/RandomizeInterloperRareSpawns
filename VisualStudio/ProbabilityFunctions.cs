@@ -1,5 +1,4 @@
 ﻿using GearSpawner;
-using System;
 
 namespace RandomizeInterloperRareSpawns
 {
@@ -7,8 +6,8 @@ namespace RandomizeInterloperRareSpawns
 	{
 		internal static void AddToModComponent()
 		{
-			SpawnTagManager.AddToTaggedFunctions("RandomizeInterloperRareSpawns_Guaranteed", new Func<DifficultyLevel, FirearmAvailability, GearSpawnInfo, float>(GuaranteedSpawns));
-			SpawnTagManager.AddToTaggedFunctions("RandomizeInterloperRareSpawns_Random", new Func<DifficultyLevel, FirearmAvailability, GearSpawnInfo, float>(RandomSpawns));
+			SpawnTagManager.AddFunction("RandomizeInterloperRareSpawns_Guaranteed", GuaranteedSpawns);
+			SpawnTagManager.AddFunction("RandomizeInterloperRareSpawns_Random", RandomSpawns);
 		}
 		
 		public static float GuaranteedSpawns(DifficultyLevel difficultyLevel,FirearmAvailability firearmAvailability,GearSpawnInfo gearSpawnInfo)
