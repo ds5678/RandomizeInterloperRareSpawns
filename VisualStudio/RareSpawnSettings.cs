@@ -1,12 +1,12 @@
 ﻿using ModSettings;
 
-namespace RandomizeInterloperRareSpawns
-{
+namespace RandomizeInterloperRareSpawns;
+
     internal class RareSpawnSettings : JsonModSettings
-	{
-		internal static RareSpawnSettings Instance { get; } = new();
-		
-		[Section("Random Spawns")]
+{
+	internal static RareSpawnSettings Instance { get; } = new();
+	
+	[Section("Random Spawns")]
         [Name("Heavy Hammer Spawn Expectation")]
         [Description("The expected number of times this item will randomly spawn in the world based on statistics. Recommended is 4")]
         [Slider(0f, 20, 201)]
@@ -63,4 +63,3 @@ namespace RandomizeInterloperRareSpawns
         [Description("If yes, there is a guaranteed spawn for the Storm Lantern in the middle layer of the Cinder Hills Coal Mine. If no, it is possible (but unlikely) that the storm lantern might not spawn anywhere in the world.")]
         public bool guaranteedLantern = true;
     }
-}

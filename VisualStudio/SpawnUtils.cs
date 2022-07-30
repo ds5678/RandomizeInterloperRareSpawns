@@ -2,45 +2,44 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace RandomizeInterloperRareSpawns
+namespace RandomizeInterloperRareSpawns;
+
+class SpawnUtils
 {
-	class SpawnUtils
+	internal static List<GameObject> GetRootObjects()
 	{
-		internal static List<GameObject> GetRootObjects()
+		List<GameObject> rootObj = new List<GameObject>();
+
+		for (int i = 0; i < UnityEngine.SceneManagement.SceneManager.sceneCount; i++)
 		{
-			List<GameObject> rootObj = new List<GameObject>();
+			Scene scene = UnityEngine.SceneManagement.SceneManager.GetSceneAt(i);
 
-			for (int i = 0; i < UnityEngine.SceneManagement.SceneManager.sceneCount; i++)
+			GameObject[] sceneObj = scene.GetRootGameObjects();
+
+			foreach (GameObject obj in sceneObj)
 			{
-				Scene scene = UnityEngine.SceneManagement.SceneManager.GetSceneAt(i);
-
-				GameObject[] sceneObj = scene.GetRootGameObjects();
-
-				foreach (GameObject obj in sceneObj)
-				{
-					rootObj.Add(obj);
-				}
-			}
-
-			return rootObj;
-		}
-
-		internal static void GetChildren(GameObject obj, List<GameObject> result)
-		{
-			if (obj.transform.childCount > 0)
-			{
-
-				for (int i = 0; i < obj.transform.childCount; i++)
-				{
-					GameObject child = obj.transform.GetChild(i).gameObject;
-
-					result.Add(child);
-
-					GetChildren(child, result);
-				}
+				rootObj.Add(obj);
 			}
 		}
 
-
+		return rootObj;
 	}
+
+	internal static void GetChildren(GameObject obj, List<GameObject> result)
+	{
+		if (obj.transform.childCount > 0)
+		{
+
+			for (int i = 0; i < obj.transform.childCount; i++)
+			{
+				GameObject child = obj.transform.GetChild(i).gameObject;
+
+				result.Add(child);
+
+				GetChildren(child, result);
+			}
+		}
+	}
+
+
 }
